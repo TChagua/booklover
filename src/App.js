@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Provider } from './context';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Books from './components/Books';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Details from './components/Details'
+import Details from './components/Details';
 import "./styles/main.css";
 
 
