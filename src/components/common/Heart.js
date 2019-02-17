@@ -6,7 +6,8 @@ export default class Heart extends Component {
     return (
         <label className="heart-toggle-label">
           <input type="checkbox" className="heart-toggle" 
-          onChange={this.props.handleCheckBox} checked={this.props.checked}/>
+          onChange={this.props.handleCheckBox} 
+          checked={this.props.checked}/>
           <i className="fas fa-heart"></i>
         </label> 
     )
