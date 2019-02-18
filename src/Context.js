@@ -22,10 +22,6 @@ const Context = React.createContext();
       item.isFavorite = !item.isFavorite;
     }
     
-    // removeFromFavorites = (id) => {
-    //   let item = this.state.books.find(book => book.id ===id);
-    //   item.isFavorite = false;
-    // }
     
     render() {
       return (

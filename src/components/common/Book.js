@@ -6,11 +6,11 @@ export default class Book extends Component {
   state = {
     checked: false
  };
- handleCheckBox =(e, callback1, id) =>{
+ handleCheckBox =(e, callback, id) =>{
     this.setState({
       checked: e.target.checked
     })
-    return callback1(id)
+    return callback(id)
   }
 
   
