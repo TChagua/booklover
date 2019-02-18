@@ -10,7 +10,7 @@ html{
 
 body {
   margin: 0;
-  background: #fff;
+  background: lighten($background, 40%);
   font-family: $text-font;
   font-weight: 400;
 }

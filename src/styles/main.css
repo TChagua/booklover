@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  background: #fff;
+  background: #d0d4d9;
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
 }
@@ -33,7 +33,7 @@ header {
 header .logo {
   font-family: "Courgette", cursive;
   color: #fb9039;
-  text-shadow: 3px 3px 0 #646c79;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -65,7 +65,7 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -113,7 +113,7 @@ nav a:hover {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: #fff;
+  background: white;
   height: 2px;
   width: 2em;
   border-radius: 2px;
@@ -277,20 +277,22 @@ nav a:hover {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 10px auto;
+  margin: 12px;
 }
 
 .book {
   cursor: pointer;
-  border: 3px solid #1f3044;
+  border: 1px solid #1f3044;
   padding: 10px;
-  margin: 10px;
+  margin: 12px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   -webkit-box-flex: 30%;
       -ms-flex: 30% 1 1;
           flex: 30% 1 1;
   background: #646c79;
+  -webkit-box-shadow: 0 15px 25px -10px rgba(31, 48, 68, 0.3);
+          box-shadow: 0 15px 25px -10px rgba(31, 48, 68, 0.3);
   position: relative;
   display: -ms-grid;
   display: grid;
@@ -301,7 +303,7 @@ nav a:hover {
 
 .book:hover {
   background: #1f3044;
-  color: #fff;
+  color: white;
 }
 
 .book .title {
@@ -459,7 +461,7 @@ nav a:hover {
 }
 
 .heart-toggle:checked ~ i {
-  color: #ff0000;
+  color: red;
 }
 
 .heart-toggle-label {

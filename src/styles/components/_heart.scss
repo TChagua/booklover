@@ -8,7 +8,7 @@
     width: 0;
 
     &:checked ~ i {
-        color:#f00;
+        color:rgb(255, 0, 0);
       }
 
     &-label{

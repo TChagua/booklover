@@ -10,9 +10,11 @@ header {
     z-index: 777;
 
     .logo{
-        font-family: $logo-font;
-        color: $secondary;
-        text-shadow: 3px 3px 0 $background;
+      font-family: $logo-font;
+      color: $secondary;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                  0px 8px 13px rgba(0,0,0,0.1),
+                  0px 18px 23px rgba(0,0,0,0.1);
       }
   }
   
@@ -39,7 +41,7 @@ nav {
       }
     
     a {
-        color: #fff;
+        color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 1.2rem;
         text-transform: uppercase;
@@ -79,7 +81,7 @@ nav {
     span::before,
     span::after {
       display: block;
-      background: #fff;
+      background: rgb(255, 255, 255);
       height: 2px;
       width: 2em;
       border-radius: 2px;
