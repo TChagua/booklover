@@ -8,7 +8,7 @@ export default class Books extends Component {
     return (
       <Consumer>
         {value => {
-          const { books, addToFavorites, removeFromFavorites } = value;
+          const { books, addToFavorites} = value;
           if(books===undefined) return <Loader />;
           else {
             return (
@@ -19,14 +19,14 @@ export default class Books extends Component {
                   key={book.id} 
                   book={book} 
                   addToFavorites={addToFavorites} 
-                  removeFromFavorites={removeFromFavorites}/>
+                  />
               }) : 
                 books.map(book => {
                   return <Book 
                   key={book.id} 
                   book={book} 
                   addToFavorites={addToFavorites} 
-                  removeFromFavorites={removeFromFavorites}/>  
+                  />  
                 })
                 }
               </main>

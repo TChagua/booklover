@@ -6,17 +6,16 @@ export default class Book extends Component {
   state = {
     checked: false
  };
- handleCheckBox =(e, callback1, callback2, id) =>{
+ handleCheckBox =(e, callback1, id) =>{
     this.setState({
       checked: e.target.checked
     })
-    if(!this.state.checked) return callback1(id)
-    else return callback2(id)
+    return callback1(id)
   }
 
   
   render() {
-    const {book, addToFavorites, removeFromFavorites} = this.props;
+    const {book, addToFavorites} = this.props;
     return (
       <article className="book">
         <img src={book.volumeInfo.imageLinks.thumbnail} alt="book-cover"/> 
@@ -26,7 +25,7 @@ export default class Book extends Component {
         </div>
         <Heart 
         checked={this.state.checked} 
-        handleCheckBox={(e) => this.handleCheckBox(e, addToFavorites, removeFromFavorites, book.id)}/>
+        handleCheckBox={(e) => this.handleCheckBox(e, addToFavorites, book.id)}/>
         <p>{book.volumeInfo.description}</p> 
         <span><Link to={"/details/"+book.id}>read more >></Link></span>
       </article>

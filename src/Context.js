@@ -19,20 +19,19 @@ const Context = React.createContext();
 
     addToFavorites = (id) => {
       let item = this.state.books.find(book => book.id ===id);
-      item.isFavorite = true;
+      item.isFavorite = !item.isFavorite;
     }
     
-    removeFromFavorites = (id) => {
-      let item = this.state.books.find(book => book.id ===id);
-      item.isFavorite = false;
-    }
+    // removeFromFavorites = (id) => {
+    //   let item = this.state.books.find(book => book.id ===id);
+    //   item.isFavorite = false;
+    // }
     
     render() {
       return (
         <Context.Provider value={{
           books: this.state.books, 
-          addToFavorites: this.addToFavorites,
-          removeFromFavorites: this.removeFromFavorites
+          addToFavorites: this.addToFavorites
           }}>
           {this.props.children}
         </Context.Provider>
