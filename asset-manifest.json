@@ -1,13 +1,13 @@
 {
-  "main.css": "/booklover/static/css/main.5af1ec6b.chunk.css",
-  "main.js": "/booklover/static/js/main.b9e95b13.chunk.js",
-  "main.js.map": "/booklover/static/js/main.b9e95b13.chunk.js.map",
+  "main.css": "/booklover/static/css/main.3a6bf9ba.chunk.css",
+  "main.js": "/booklover/static/js/main.5d555e96.chunk.js",
+  "main.js.map": "/booklover/static/js/main.5d555e96.chunk.js.map",
   "runtime~main.js": "/booklover/static/js/runtime~main.92b0a7cf.js",
   "runtime~main.js.map": "/booklover/static/js/runtime~main.92b0a7cf.js.map",
   "static/js/2.3943001d.chunk.js": "/booklover/static/js/2.3943001d.chunk.js",
   "static/js/2.3943001d.chunk.js.map": "/booklover/static/js/2.3943001d.chunk.js.map",
   "index.html": "/booklover/index.html",
-  "precache-manifest.de36b1b1299b3fdf1d6344771326d20b.js": "/booklover/precache-manifest.de36b1b1299b3fdf1d6344771326d20b.js",
+  "precache-manifest.e8c5da4e293349d9605900275943d29f.js": "/booklover/precache-manifest.e8c5da4e293349d9605900275943d29f.js",
   "service-worker.js": "/booklover/service-worker.js",
-  "static/css/main.5af1ec6b.chunk.css.map": "/booklover/static/css/main.5af1ec6b.chunk.css.map"
+  "static/css/main.3a6bf9ba.chunk.css.map": "/booklover/static/css/main.3a6bf9ba.chunk.css.map"
 }
