@@ -13,13 +13,16 @@ const Context = React.createContext();
         .then(books => {
             this.setState({ books: books.items })  
         })
-        .then(this.state.books.map(book => book.isFavorite = false))
+        .then(this.setState(currentState => ({
+          books:currentState.books.map(item => ({...item, isFavorite: false}))
+        })))
         .catch(err => console.log(err))
     }
 
-    addToFavorites = (id) => {
-      let item = this.state.books.find(book => book.id ===id);
-      item.isFavorite = !item.isFavorite;
+    toggleFavorite = (id) => {
+      this.setState(currentState => ({
+        books: currentState.books.map(item => item.id === id ? ({...item, isFavorite: !item.isFavorite}) : item)
+      }))
     }
     
     
@@ -27,7 +30,7 @@ const Context = React.createContext();
       return (
         <Context.Provider value={{
           books: this.state.books, 
-          addToFavorites: this.addToFavorites
+          toggleFavorite: this.toggleFavorite
           }}>
           {this.props.children}
         </Context.Provider>

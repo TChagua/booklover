@@ -1,13 +1,13 @@
 {
-  "main.css": "/booklover/static/css/main.3a6bf9ba.chunk.css",
-  "main.js": "/booklover/static/js/main.5d555e96.chunk.js",
-  "main.js.map": "/booklover/static/js/main.5d555e96.chunk.js.map",
+  "main.css": "/booklover/static/css/main.6b3edd13.chunk.css",
+  "main.js": "/booklover/static/js/main.5d8cf0f6.chunk.js",
+  "main.js.map": "/booklover/static/js/main.5d8cf0f6.chunk.js.map",
   "runtime~main.js": "/booklover/static/js/runtime~main.92b0a7cf.js",
   "runtime~main.js.map": "/booklover/static/js/runtime~main.92b0a7cf.js.map",
-  "static/js/2.3943001d.chunk.js": "/booklover/static/js/2.3943001d.chunk.js",
-  "static/js/2.3943001d.chunk.js.map": "/booklover/static/js/2.3943001d.chunk.js.map",
+  "static/js/2.8991224c.chunk.js": "/booklover/static/js/2.8991224c.chunk.js",
+  "static/js/2.8991224c.chunk.js.map": "/booklover/static/js/2.8991224c.chunk.js.map",
   "index.html": "/booklover/index.html",
-  "precache-manifest.e8c5da4e293349d9605900275943d29f.js": "/booklover/precache-manifest.e8c5da4e293349d9605900275943d29f.js",
+  "precache-manifest.9cb79519221b0f8a4232d76c961303c3.js": "/booklover/precache-manifest.9cb79519221b0f8a4232d76c961303c3.js",
   "service-worker.js": "/booklover/service-worker.js",
-  "static/css/main.3a6bf9ba.chunk.css.map": "/booklover/static/css/main.3a6bf9ba.chunk.css.map"
+  "static/css/main.6b3edd13.chunk.css.map": "/booklover/static/css/main.6b3edd13.chunk.css.map"
 }

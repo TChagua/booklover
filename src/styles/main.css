@@ -460,10 +460,6 @@ nav a:hover {
   width: 0;
 }
 
-.heart-toggle:checked ~ i {
-  color: red;
-}
-
 .heart-toggle-label {
   position: relative;
   -ms-grid-row: 3;
@@ -481,5 +477,10 @@ nav a:hover {
 .fa-heart {
   position: absolute;
   cursor: pointer;
+  color: white;
+}
+
+.fa-heart.red {
+  color: red;
 }
 /*# sourceMappingURL=main.css.map */

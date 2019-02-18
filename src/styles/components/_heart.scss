@@ -1,28 +1,30 @@
 //Heart Checkbox Styles
 
 .heart-toggle {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 
-    &:checked ~ i {
-        color:rgb(255, 0, 0);
-      }
-
-    &-label{
-        position: relative;
-        grid-area: heart;
-        grid-row: 3;
-        grid-column: 1;
-        bottom: 5px;
-        left:20px;
-        padding-bottom:10px;
-      }
+  &-label{
+    position: relative;
+    grid-area: heart;
+    grid-row: 3;
+    grid-column: 1;
+    bottom: 5px;
+    left:20px;
+    padding-bottom:10px;
   }
+}
   
 .fa-heart{
-    position: absolute;
-    cursor: pointer;
+  position: absolute;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+
+  &.red{
+    color: rgb(255, 0, 0)
   }
+}
+
