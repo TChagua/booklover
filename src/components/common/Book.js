@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link } from "react-router-dom";
-// import Heart from './Heart'
+
 
 export default class Book extends Component {
   
